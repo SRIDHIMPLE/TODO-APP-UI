@@ -1,0 +1,47 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.not-show{
+    filter: blur(15px);
+    -webkit-filter: blur(15px);
+}
+.newcontainer{
+    width: 400px;
+    background-color: white;
+    height: 200px;
+    margin-bottom: 50%;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    border: 2px solid #BB3B0E;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+}
+.addnewlist{
+    margin-top: 30px;
+    margin-left: 130px;
+    font-size: 25px;
+    color: red;
+}
+#textarea1{
+    margin-top: 20px;
+    margin-left: 90px;
+    border: 2px solid red;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px gray;
+}
+.addbutton{
+    border: 2px solid red;
+    border-radius: 20px;
+    width: 70px;
+    height: 30px;
+    margin-top:20px;
+   margin-left: 170px;
+   background-color: #FDE8CD;
+}
+.addbutton:hover{
+    background-color: sandybrown;
+}

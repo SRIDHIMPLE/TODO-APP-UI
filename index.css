@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    border-radius: 20px;
+    width: 50%;
+    height: 100px;
+    margin:auto;
+    margin-top: 10%;
+    position: relative;;   
+}
+
+.container1{
+    width: 50%;
+    height: 100%;
+    position: relative;
+}
+.task{
+    font-size: 60px;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+}
+.list{
+    font-size: 55px;
+    opacity: 0.5;
+    position: absolute;
+    top: 25px;
+    left: 220px;
+    letter-spacing: 1px;
+    font-weight:lighter
+}
+.container2{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 90px;
+    padding-top: 35px;    
+}
+.addlist{
+    position: absolute;
+    font-size: 35px;
+    top: 35px;
+    right: 40px;
+    opacity: 0.5;
+}
+.circle{
+    padding-left: 60px;
+}
+.circle:active{
+    transform: scale(1.05,1.05);
+}
+.wholecontainer{
+    margin-top: 55px;   
+    display: flex;
+    margin-left: 320px;
+    justify-content: space-around;
+    width: 900px;
+    height: 300px;
+    cursor: pointer;
+}
+.box1{
+    background-color: #F9F3DF;
+    width: 220px;
+    height: 320px;
+    border: 2px solid #FFBF86;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+    position: relative; 
+}
+.box1:hover{
+    background-color: #FDFCE5;
+}
+.box1:active{
+    transform: scale(1.05,1.05);
+}
+.box2{
+    background-color: #F9F3DF;
+    position: relative;
+    width: 220px;
+    height: 320px;
+    border: 2px solid #FFBF86;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.box2:hover{
+    background-color: #FDFCE5;
+}
+
+.box3{
+    background-color: #F9F3DF;
+    position: relative;
+    width: 220px;
+    height: 320px;
+    border: 2px solid #FFBF86;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.box3:hover{
+    background-color: #FDFCE5;
+}
+
+.div1{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    padding-top: 20px;
+    width: 85%;
+    height: 20%;
+    border-bottom: 2px solid gray;
+    font-size: 25px;
+    color: #fd7b64;
+}
+.div2{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    color: red;
+    text-decoration: line-through;
+}
+.div3{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    font-size: 25px;
+    color: black;
+}
+.div4{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    padding-top: 20px;
+    width: 85%;
+    height: 20%;
+    border-bottom: 2px solid gray;
+    font-size: 1.5rem;
+    color: #fd7b64;
+}
+.div5{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    color: red;
+    text-decoration: line-through;
+}
+.div6{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    font-size: 25px;
+}
+.div7{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    padding-top: 20px;
+    width: 85%;
+    height: 20%;
+    border-bottom: 2px solid gray;
+    font-size: 1.5rem;
+    color: #fd7b64;
+}
+.div8{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    color: red;
+    text-decoration: line-through;
+}
+.div9{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    font-size: 25px;
+}
+#checkbox{
+    position: absolute;
+    top: 48%;
+    left: 10px;
+    width: 20px;
+    height: 40px;
+}
+#checkbox2{
+    position: absolute;
+    top: 48%;
+    left: 10px;
+    width: 20px;
+    height: 40px;
+}
+#checkbox3{
+    position: absolute;
+    top: 48%;
+    left: 10px;
+    width: 20px;
+    height: 40px;
+}

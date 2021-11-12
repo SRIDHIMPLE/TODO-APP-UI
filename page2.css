@@ -1,0 +1,104 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bigcont{
+    display: flex;
+    justify-content: space-around;
+}
+.upper-circle{
+    width: 200px;
+    height: 100px;
+    margin-top: 110px;
+    border-top: 2px solid gray;
+    margin-left: 380px;
+}
+.triptoparis{
+    margin-top: 80px;
+    font-size: 55px;
+    font-weight: bold; 
+}
+.upper-circle1{
+    width: 200px;
+    height: 100px;
+    margin-top: 110px;
+    border-top: 2px solid gray;
+    margin-right: 380px;
+}
+.arrow-plus-back{
+    width: 200px;
+    height: 100px;
+    margin-left: 46%;
+    position: relative;
+}
+.back-arrow{
+    width: 30px;
+    height: 40px;
+    position: absolute;
+    top: 0;
+}
+.back{
+    font-size: 35px;
+    opacity: 0.5;
+    padding-left: 30px;
+    position: absolute;
+    top: 0;
+    left: 25px;
+}
+.page2-box{
+    background-color: #F9F3DF;
+    margin-top: 10px;
+    margin-left: 42%;
+    width: 300px;
+    height: 350px;
+    border: 2px solid #FFBF86;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px gray;
+    position: relative;
+}
+.page2-box:hover{
+    background-color: #FDFCE5;
+}
+.page2-trip{
+    position: absolute;
+    top: 15px;
+    right: 0;
+    padding-top: 20px;
+    width: 85%;
+    height: 20%;
+    border-bottom: 2px solid gray;
+    font-size: 25px;
+    color: #fd7b64;
+}
+.page2-completedtasks{
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+    color: red;
+    text-decoration: line-through;
+}
+.page2-pendingtasks{
+    position: absolute;
+    top: 50%;
+    left: 18%;
+    font-size: 25px;
+    color: black;
+}
+#checkboxpage2{
+    position: absolute;
+    top: 48%;
+    left: 10px;
+    width: 20px;
+    height: 40px;
+}
+.circle-add{
+    position: absolute;
+    top: 85%;
+    left: 80%;
+}
+
